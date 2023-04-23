@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Switch Github Token",
+  "version": "1.0",
+  "description": "Ajoute une icône à la barre d'outil pour une action navigateur. Cliquez sur le bouton pour choisir une bête. Le contenu de l'onglet actif sera alors remplacé par une image de la bête choisie. Voir https://developer.mozilla.org/fr/Add-ons/WebExtensions/Examples#beastify",
+  "homepage_url": "https://github.com/NolannB14/Switch-github-account/tree/main",
+  "icons": {
+    "48": "icons/github-icon-48.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/github-icon-32.png",
+    "default_title": "Switch Github Token",
+    "default_popup": "src/index.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
